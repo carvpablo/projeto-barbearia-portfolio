@@ -25,11 +25,20 @@ _A melhor forma de avaliar o projeto é vê-lo em ação:_
 
 ## 📸 Demonstração Visual
 
-| Tela de Agendamento                                                                                     | Painel Administrativo                                                                                     |
-| ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| ![Tela de Agendamento](https://github.com/user-attachments/assets/f2274c4d-d859-4d6b-9cc4-8f2ea2e6d12f) | ![Painel Administrativo](https://github.com/user-attachments/assets/ddf18840-9cea-4f51-84b1-f9fdd269770c) |
-
-_(Dica: Substitua as imagens acima por GIFs ou capturas de tela reais do seu aplicativo rodando!)_
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <strong>📱 Tela de Agendamento</strong>
+      <br /><br />
+      <video src="https://github.com/user-attachments/assets/f2274c4d-d859-4d6b-9cc4-8f2ea2e6d12f" width="100%" controls></video>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <strong>💻 Painel Administrativo</strong>
+      <br /><br />
+      <img src="https://github.com/user-attachments/assets/ddf18840-9cea-4f51-84b1-f9fdd269770c" width="100%" alt="Painel Administrativo" />
+    </td>
+  </tr>
+</table>
 
 ---
 
