@@ -13,34 +13,37 @@
 
 ## 🔗 Demonstração Online
 
-*A melhor forma de avaliar o projeto é vê-lo em ação:*
-👉 **[Clique aqui para acessar a demonstração ao vivo](https://link-da-sua-demonstracao-aqui.com)** *(Substitua pelo link após o deploy)*
+_A melhor forma de avaliar o projeto é vê-lo em ação:_
+👉 **[Clique aqui para acessar a demonstração ao vivo](https://link-da-sua-demonstracao-aqui.com)** _(Substitua pelo link após o deploy)_
 
 > **Nota:** Use as seguintes credenciais de teste para explorar as funcionalidades de cliente ou barbeiro:
-> - **Cliente Teste:** `cliente@teste.com` / Senha: `senha123` *(ou crie uma nova conta)*
+>
+> - **Cliente Teste:** `cliente@teste.com` / Senha: `senha123` _(ou crie uma nova conta)_
 > - **Barbeiro/Admin Teste:** `barbeiro@teste.com` / Senha: `senha123`
 
 ---
 
 ## 📸 Demonstração Visual
 
-| Tela de Agendamento | Painel Administrativo |
-|---|---|
-| ![Tela de Agendamento](https://via.placeholder.com/400x250?text=Inserir+GIF+ou+Print+do+Agendamento) | ![Painel Administrativo](https://via.placeholder.com/400x250?text=Inserir+GIF+ou+Print+do+Painel) |
+| Tela de Agendamento                                                                                     | Painel Administrativo                                                                                     |
+| ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| ![Tela de Agendamento](https://github.com/user-attachments/assets/f2274c4d-d859-4d6b-9cc4-8f2ea2e6d12f) | ![Painel Administrativo](https://github.com/user-attachments/assets/ddf18840-9cea-4f51-84b1-f9fdd269770c) |
 
-*(Dica: Substitua as imagens acima por GIFs ou capturas de tela reais do seu aplicativo rodando!)*
+_(Dica: Substitua as imagens acima por GIFs ou capturas de tela reais do seu aplicativo rodando!)_
 
 ---
 
 ## ✨ Funcionalidades Principais
 
 ### Para Clientes:
+
 - **Cadastro e Autenticação Segura:** Login e registro protegidos com criptografia de senha e tokens JWT.
 - **Agendamento Inteligente:** Seleção de data, horário disponível, barbeiro de preferência e múltiplos serviços simultâneos.
 - **Painel do Cliente:** Visualização rápida de agendamentos futuros e histórico de serviços realizados.
 - **Cancelamento de Agendamentos:** Flexibilidade para cancelar horários respeitando as regras do estabelecimento.
 
 ### Para Barbeiros / Administradores:
+
 - **Painel Administrativo (Dashboard):** Visão geral dos agendamentos do dia, faturamento estimado e estatísticas de uso.
 - **Gerenciamento de Agenda:** Visualização em lista e controle de status dos agendamentos (Confirmado, Concluído, Cancelado).
 - **Gerenciamento de Serviços:** Criação, edição, exclusão e alteração de preços e duração dos serviços disponíveis na barbearia.
@@ -51,6 +54,7 @@
 ## 🛠️ Tecnologias Utilizadas
 
 ### **Frontend**
+
 - **React (v19) & TypeScript:** Interface de usuário dinâmica, tipagem estática e componentes reutilizáveis.
 - **Vite:** Build tool extremamente veloz para desenvolvimento moderno.
 - **Tailwind CSS & Radix UI:** Estilização com design system consistente, acessibilidade nativa e responsividade.
@@ -59,6 +63,7 @@
 - **React Hook Form & Zod:** Validação e manipulação de formulários de forma performática e segura.
 
 ### **Backend**
+
 - **Node.js & Express:** Servidor HTTP robusto e modularizado seguindo boas práticas de arquitetura de API REST.
 - **Prisma ORM:** Modelagem de banco de dados simplificada, migrações automatizadas e consultas tipadas.
 - **SQLite:** Banco de dados relacional leve em arquivo local (ideal para desenvolvimento rápido e demonstração).
@@ -81,7 +86,9 @@ O repositório está organizado como um **Monorepo**:
 ## 🚀 Como Rodar o Projeto Localmente
 
 ### Pré-requisitos
+
 Certifique-se de ter instalado em sua máquina:
+
 - [Node.js](https://nodejs.org/) (Versão LTS recomendada)
 - Gerenciador de pacotes `npm` (vem com o Node)
 
@@ -124,7 +131,7 @@ cd projeto-barbearia
    ```bash
    npm run dev
    ```
-   *O servidor backend estará rodando em `http://localhost:5000`.*
+   _O servidor backend estará rodando em `http://localhost:5000`._
 
 ---
 
@@ -142,13 +149,14 @@ cd projeto-barbearia
    ```bash
    npm run dev
    ```
-   *O frontend estará rodando e disponível em `http://localhost:5173`.*
+   _O frontend estará rodando e disponível em `http://localhost:5173`._
 
 ---
 
 ## ⚙️ Variáveis de Ambiente
 
 ### Servidor (`server/.env`)
+
 - `PORT`: Porta onde a API vai rodar (padrão: `5000`).
 - `DATABASE_URL`: String de conexão com o banco (padrão para SQLite: `file:./dev.db`).
 - `JWT_SECRET`: Chave secreta para assinar e validar os tokens JWT de autenticação.
@@ -161,4 +169,4 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-Desenvolvido com ☕ e ❤️ por [Seu Nome](https://github.com/seu-usuario).
+Desenvolvido por [Pablo Lemos](https://github.com/carvpablo).
