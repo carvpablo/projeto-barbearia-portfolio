@@ -14,7 +14,7 @@
 ## 🔗 Demonstração Online
 
 _A melhor forma de avaliar o projeto é vê-lo em ação:_
-👉 **[Clique aqui para acessar a demonstração ao vivo](https://link-da-sua-demonstracao-aqui.com)** _(Substitua pelo link após o deploy)_
+👉 **[Clique aqui para acessar a demonstração ao vivo](https://projeto-barbearia-portfolio.vercel.app/)**
 
 > **Nota:** Use as seguintes credenciais de teste para explorar as funcionalidades de cliente ou barbeiro:
 >
@@ -26,11 +26,13 @@ _A melhor forma de avaliar o projeto é vê-lo em ação:_
 ## 📸 Demonstração Visual
 
 ### 📱 Tela de Agendamento
+
 ![Tela de Agendamento](https://github.com/user-attachments/assets/f2274c4d-d859-4d6b-9cc4-8f2ea2e6d12f)
 
 <br />
 
 ### 💻 Painel Administrativo
+
 ![Painel Administrativo](https://github.com/user-attachments/assets/ddf18840-9cea-4f51-84b1-f9fdd269770c)
 
 ---
